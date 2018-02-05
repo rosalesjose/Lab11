@@ -36,5 +36,10 @@ namespace Lab11
             this.year = year;
             this.fee = fee;
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + "\nProgram: " + program + "\nYear: " + Year + "\nFee: " + Fee;
+        }
     }
 }

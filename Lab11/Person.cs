@@ -28,5 +28,10 @@ namespace Lab11
             this.name = name;
             this.address = address;
         }
+
+        public override string ToString()
+        {            
+            return "\nPerson: " + Name +"\nAddress: " + Address;
+        }
     }
 }

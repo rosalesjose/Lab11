@@ -28,5 +28,10 @@ namespace Lab11
             this.school = school;
             this.pay = pay;
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + "\nSchool: " + School + "\nPay: " + Pay;
+        }
     }
 }
